@@ -1,0 +1,6 @@
+framework module Pods_ZYSliderViewController {
+  umbrella header "Pods-ZYSliderViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

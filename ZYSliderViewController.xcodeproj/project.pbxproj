@@ -22,6 +22,7 @@
 		3F5F54021ECD7F9D00CC7F38 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F53FE1ECD7F9D00CC7F38 /* RDVTabBarController.m */; };
 		3F5F54031ECD7F9D00CC7F38 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F54001ECD7F9D00CC7F38 /* RDVTabBarItem.m */; };
 		3F5F54061ECDA41900CC7F38 /* ZYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F54051ECDA41900CC7F38 /* ZYBaseViewController.m */; };
+		483AD5B6ACFA150763A0C794 /* Pods_ZYSliderViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E283A8CCA3E63AC29157859 /* Pods_ZYSliderViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1AF9B5E61DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZYSliderViewController.m"; sourceTree = "<group>"; };
 		1AF9B5E81DD9B38A00CD4230 /* ZYTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTempViewController.h; sourceTree = "<group>"; };
 		1AF9B5E91DD9B38A00CD4230 /* ZYTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTempViewController.m; sourceTree = "<group>"; };
+		2A5FE0B673127265A5E34D19 /* Pods-ZYSliderViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSliderViewController.debug.xcconfig"; path = "Target Support Files/Pods-ZYSliderViewController/Pods-ZYSliderViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		3F5F53FB1ECD7F9D00CC7F38 /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
 		3F5F53FC1ECD7F9D00CC7F38 /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
 		3F5F53FD1ECD7F9D00CC7F38 /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		3F5F54001ECD7F9D00CC7F38 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
 		3F5F54041ECDA41900CC7F38 /* ZYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseViewController.h; sourceTree = "<group>"; };
 		3F5F54051ECDA41900CC7F38 /* ZYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseViewController.m; sourceTree = "<group>"; };
+		73E6668CD662C2A3BF1C8D4B /* Pods-ZYSliderViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSliderViewController.release.xcconfig"; path = "Target Support Files/Pods-ZYSliderViewController/Pods-ZYSliderViewController.release.xcconfig"; sourceTree = "<group>"; };
+		7E283A8CCA3E63AC29157859 /* Pods_ZYSliderViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYSliderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483AD5B6ACFA150763A0C794 /* Pods_ZYSliderViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +76,8 @@
 			children = (
 				1A2EC1011DD3153800F369D5 /* ZYSliderViewController */,
 				1A2EC1001DD3153800F369D5 /* Products */,
+				9DD08A17DB866D3733AA43AA /* Pods */,
+				5F0F74B996FF377DF2EA4972 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,24 @@
 			path = RDVTabBarController;
 			sourceTree = "<group>";
 		};
+		5F0F74B996FF377DF2EA4972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E283A8CCA3E63AC29157859 /* Pods_ZYSliderViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD08A17DB866D3733AA43AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE0B673127265A5E34D19 /* Pods-ZYSliderViewController.debug.xcconfig */,
+				73E6668CD662C2A3BF1C8D4B /* Pods-ZYSliderViewController.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A2EC1161DD3153900F369D5 /* Build configuration list for PBXNativeTarget "ZYSliderViewController" */;
 			buildPhases = (
+				171BBF90ADA85C562C709894 /* [CP] Check Pods Manifest.lock */,
 				1A2EC0FB1DD3153800F369D5 /* Sources */,
 				1A2EC0FC1DD3153800F369D5 /* Frameworks */,
 				1A2EC0FD1DD3153800F369D5 /* Resources */,
+				370CD757D30DCE583BFBA17F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +235,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171BBF90ADA85C562C709894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYSliderViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370CD757D30DCE583BFBA17F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZYSliderViewController/Pods-ZYSliderViewController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYSliderViewController/Pods-ZYSliderViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A2EC0FB1DD3153800F369D5 /* Sources */ = {
@@ -341,6 +411,7 @@
 		};
 		1A2EC1171DD3153900F369D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5FE0B673127265A5E34D19 /* Pods-ZYSliderViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -355,6 +426,7 @@
 		};
 		1A2EC1181DD3153900F369D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E6668CD662C2A3BF1C8D4B /* Pods-ZYSliderViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

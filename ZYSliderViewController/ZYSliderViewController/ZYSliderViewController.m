@@ -15,8 +15,8 @@ static NSTimeInterval const kAnimationDuration = 0.3;
 
 #pragma mark ---------- left config -----------
 static CGFloat const leftShowWidth = 240.f;
-//static CGFloat const leftScale = 0.8f;
-static CGFloat const leftScale = 1.0f;
+static CGFloat const leftScale = 0.8f;
+//static CGFloat const leftScale = 1.0f;
 static CGFloat const leftDragbleWidth = 80.f;
 static CGFloat const leftMinDragLength = 100.f;
 

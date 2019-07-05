@@ -172,7 +172,7 @@
 				TargetAttributes = {
 					1A2EC0FE1DD3153800F369D5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = M6G67YJ85X;
+						DevelopmentTeam = 7454Q79LXB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -182,6 +182,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -343,11 +344,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = M6G67YJ85X;
+				DEVELOPMENT_TEAM = 7454Q79LXB;
 				INFOPLIST_FILE = ZYSliderViewController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = karthus.ZYSliderViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = karthus.ZYSliderViewControllerzqd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,11 +358,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = M6G67YJ85X;
+				DEVELOPMENT_TEAM = 7454Q79LXB;
 				INFOPLIST_FILE = ZYSliderViewController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = karthus.ZYSliderViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = karthus.ZYSliderViewControllerzqd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

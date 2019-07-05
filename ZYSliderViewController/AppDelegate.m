@@ -32,18 +32,15 @@
 
     ZYLeftViewController *leftVC = [[ZYLeftViewController alloc] init];
     ZYRightViewController *rightVC = [[ZYRightViewController alloc] init];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[mainNav1,mainNav2];
+//    tabVC1.tabBarItem = [UITabBarItem ]
+    mainNav1.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:111];
+    mainNav1.tabBarItem.title = @"联系人";
+    mainNav2.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:111];
 
-    RDVTabBarController *tab = [[RDVTabBarController alloc] init];
-    tab.viewControllers = @[mainNav1,mainNav2];
-    tabVC1.rdv_tabBarItem = [[RDVTabBarItem alloc] initWithFrame:CGRectMake(0, 7, 30, 30)];
-    tabVC1.rdv_tabBarItem.title = @"1";
-    tabVC2.rdv_tabBarItem = [[RDVTabBarItem alloc] initWithFrame:CGRectMake(0, 7, 30, 30)];
-    tabVC2.rdv_tabBarItem.title = @"2";
-
-//    tabVC1.rdv_tabBarItem = [[RDVTabBarItem alloc] initWithTitle:@"iteam1" image:[[UIImage alloc] init] tag:0];
-//    tabVC2.rdv_tabBarItem = [[UITabBarItem alloc] initWithTitle:@"iteam2" image:[[UIImage alloc] init] tag:1];
-
-    ZYSliderViewController *sliderVC = [[ZYSliderViewController alloc] initWithMainViewController:tab leftViewController:leftVC rightViewController:rightVC];
+    ZYSliderViewController *sliderVC = [[ZYSliderViewController alloc] initWithMainViewController:tabBarController leftViewController:leftVC rightViewController:rightVC];
     
     self.window.backgroundColor = [UIColor redColor];
     self.window.rootViewController = sliderVC;
